@@ -42,7 +42,7 @@ with st.sidebar:
     st.markdown("---")
     arquivo_imagem = st.file_uploader("📸 Faça upload da imagem", type=['jpg', 'jpeg', 'png'])
     st.markdown("---")
-    st.caption("Desenvolvido para TCC - Engenharia/Ciência de Dados")
+    st.caption("Desenvolvido para TCC - Ciência de Dados/IA")
 
 # 4. Área Principal
 if arquivo_imagem is not None:
